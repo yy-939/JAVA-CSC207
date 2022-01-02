@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>room</OriginalElement>
+  <nodes>
+    <node x="349.0" y="0.0">room.Room</node>
+    <node x="337.0" y="383.0">room.RoomManager</node>
+    <node x="224.625" y="766.0">room.RoomSystem</node>
+    <node x="0.0" y="407.0">room.RoomPresenter</node>
+  </nodes>
+  <notes />
+  <edges />
+  <settings layout="Hierarchic Group" zoom="0.7042925278219396" x="383.0" y="619.0" />
+  <SelectedNodes>
+    <node>room.Room</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Constructors</Category>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+    <Category>Inner Classes</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

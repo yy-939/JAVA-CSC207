@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>account</OriginalElement>
+  <nodes>
+    <node x="0.0" y="648.0">account.Admin</node>
+    <node x="1031.0" y="876.0">account.AccountManager</node>
+    <node x="0.0" y="876.0">account.AccountPresenter</node>
+    <node x="1137.0" y="613.0">account.Speaker</node>
+    <node x="498.0" y="876.0">account.AccountSystem</node>
+    <node x="1377.652878513146" y="417.8766999093382">account.AccountFactory</node>
+    <node x="758.0" y="648.0">account.Attendee</node>
+    <node x="379.0" y="624.5">account.Organizer</node>
+    <node x="568.5" y="0.0">account.Account</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="account.Organizer" target="account.Account">
+      <point x="0.0" y="-97.5" />
+      <point x="558.5" y="593.0" />
+      <point x="703.125" y="593.0" />
+      <point x="-44.875" y="281.5" />
+    </edge>
+    <edge source="account.Attendee" target="account.Account">
+      <point x="0.0" y="-74.0" />
+      <point x="937.5" y="593.0" />
+      <point x="792.875" y="593.0" />
+      <point x="44.875" y="281.5" />
+    </edge>
+    <edge source="account.Speaker" target="account.Account">
+      <point x="0.0" y="-109.0" />
+      <point x="1316.5" y="583.0" />
+      <point x="882.625" y="583.0" />
+      <point x="134.625" y="281.5" />
+    </edge>
+    <edge source="account.Admin" target="account.Account">
+      <point x="0.0" y="-74.0" />
+      <point x="179.5" y="583.0" />
+      <point x="613.375" y="583.0" />
+      <point x="-134.625" y="281.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="0.5242603550295858" x="832.5" y="835.0" />
+  <SelectedNodes>
+    <node>account.AccountFactory</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Constructors</Category>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+    <Category>Inner Classes</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

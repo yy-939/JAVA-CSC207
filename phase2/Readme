@@ -1,0 +1,69 @@
+This is the program for CSC207 Phase 2.
+Authors: Jingchen Liang, Dian Qing, Yuewei Wang, Yongyi Xu, Vanessa Huiting Yu, Ziqi Zhu
+
+-------------------------------------------------------
+    What extensions did we implement in phase2 ?
+-------------------------------------------------------
+5 mandatory extensions plus:
+1. Enhance the user's messaging experience by allowing them to "mark as unread" and delete
+2. Make the program to print the schedule to the screen, then users can request a schedule by day, by speaker, by the
+ones they have signed up for
+3. Expand the menus available to organizers to allow them to get useful summary stats about the conference including
+total account types and numbers (in account menu), total event enrollment situation and the attendance summary of each
+event (both in event menu).
+
+---------------------------
+    Useful Information
+---------------------------
+1. Please make sure that the working directory is the ConferenceSystem folder. (When open project, open the
+ConferenceSystem folder.)
+The main method is in the DemoMain file in the default package, the program runs through the main method.
+
+2. All the required .ser files should already be in the repo in the data folder, if they are not, here is what will
+happen: When running for the first time, the program need to read from a .txt file in src for the account information
+only. The rest will require .ser files which does not exist at the beginning so there will be error messages, that's
+not a problem. After the program displays the welcome message and prompt for input, user can enter things to test the
+program. When the .ser file is unreadable or not found, the system will automatically create a new file stores an empty
+corresponding class at given path to make sure that we are able to save data.
+WARNING: If only one .ser file is lost, it may cause a mismatching between data from other file and new created file.
+To fix this, we need to delete all .ser files and re-initialize saved data.
+
+3. In the UserTxtDataBase.txt file in package data, there are some usernames and passwords that can be used for testing.
+
+4. When finish testing, keep entering 'r' to return to the previous step and finally enter 'q' at the welcome menu to
+exit. There will be a option that asks to save data or not, saving data will allow testing again later, not saving will
+keep the current data.
+
+5. All "Hosts" means Speakers for events.
+
+6. "Favorite list" means friend list, according to Piazza.
+
+7. Organizer can cancel all events even if some events are not created by this organizer
+
+8. Organizer can create all types of account, including organizer account
+
+9. Some outputs for some of the options are just calling toString on a List object. That's because we focused on the
+design part and did not spend a lot of effort creating the text UI. That's why we just used toString for some parts that
+are not central.
+
+10. Organizer can create the event only when the entered room exists. Otherwise, the organizer has to create the new
+room first.
+
+11. Organizer can create room and define the time slot of room as any time period in hours in 24 hours.
+
+12. During the process of creating event, if the organizers want to quit the creating process, input a wrong format
+could terminate the creating and return to the menu. Thus, the organizers could view information and ensure the
+correctness of input next time.
+
+13. Organizer involves in rescheduling, canceling and changing events or hosts, which is completely implemented in
+phase 2.
+
+14. Sending message to a friend requires having the friend user in self friend list. The function of adding friends
+presents in account menu.
+
+
+
+
+
+
+

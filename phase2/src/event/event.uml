@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>event</OriginalElement>
+  <nodes>
+    <node x="0.0" y="0.0">event.EventPresenter</node>
+    <node x="1489.0" y="1112.0">event.EventFactory</node>
+    <node x="572.0" y="0.0">event.EventManager</node>
+    <node x="1176.0" y="0.0">event.EventSystem</node>
+    <node x="429.0" y="1680.0">event.Talk</node>
+    <node x="894.0" y="1691.5">event.PanelDiscussion</node>
+    <node x="446.0" y="1112.0">event.Event</node>
+    <node x="0.0" y="1703.5">event.Party</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="event.Party" target="event.Event">
+      <point x="0.0" y="-51.0" />
+      <point x="204.5" y="1655.0" />
+      <point x="514.5" y="1655.0" />
+      <point x="-137.0" y="259.0" />
+    </edge>
+    <edge source="event.Talk" target="event.Event">
+      <point x="0.0" y="-74.5" />
+      <point x="0.0" y="259.0" />
+    </edge>
+    <edge source="event.PanelDiscussion" target="event.Event">
+      <point x="0.0" y="-63.0" />
+      <point x="1169.0" y="1655.0" />
+      <point x="788.5" y="1655.0" />
+      <point x="137.0" y="259.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="0.40791896869244937" x="806.0" y="1066.0" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Constructors</Category>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+    <Category>Inner Classes</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

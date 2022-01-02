@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>message</OriginalElement>
+  <nodes>
+    <node x="57.5" y="0.0">message.Message</node>
+    <node x="412.0" y="669.0">message.MessageSystem</node>
+    <node x="0.0" y="669.0">message.MessagePresenter</node>
+    <node x="0.0" y="429.0">message.WordMessage</node>
+    <node x="434.0" y="0.0">message.MessagingManager</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="message.WordMessage" target="message.Message">
+      <point x="0.0" y="-97.5" />
+      <point x="0.0" y="189.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="0.8135904499540864" x="445.0" y="534.5" />
+  <SelectedNodes>
+    <node>message.MessageSystem</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Constructors</Category>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+    <Category>Inner Classes</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

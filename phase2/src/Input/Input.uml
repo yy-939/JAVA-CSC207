@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>Input</OriginalElement>
+  <nodes>
+    <node x="0.0" y="174.0">Input.UserInput</node>
+    <node x="0.0" y="437.0">Input.InputPresenter</node>
+    <node x="252.0" y="174.0">Input.RoomUserInput</node>
+    <node x="133.5" y="0.0">Input.InputStrategy</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="Input.RoomUserInput" target="Input.InputStrategy">
+      <point x="0.0" y="-109.0" />
+      <point x="368.0" y="149.0" />
+      <point x="296.25" y="149.0" />
+      <point x="54.25" y="62.0" />
+    </edge>
+    <edge source="Input.UserInput" target="Input.InputStrategy">
+      <point x="0.0" y="-109.0" />
+      <point x="116.0" y="149.0" />
+      <point x="187.75" y="149.0" />
+      <point x="-54.25" y="62.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="146.0" y="198.0" />
+  <SelectedNodes>
+    <node>Input.UserInput</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Inner Classes</Category>
+    <Category>Properties</Category>
+    <Category>Methods</Category>
+    <Category>Constructors</Category>
+    <Category>Fields</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement />
+  <nodes>
+    <node x="346.0" y="340.0">com</node>
+    <node x="261.0" y="265.0">netscape</node>
+    <node x="0.0" y="340.0">data</node>
+    <node x="511.0" y="340.0">org</node>
+    <node x="496.0" y="0.0">conferencemain</node>
+    <node x="1080.0" y="90.0">message</node>
+    <node x="676.0" y="340.0">sun</node>
+    <node x="376.0" y="90.0">room</node>
+    <node x="466.0" y="265.0">META-INF</node>
+    <node x="841.0" y="340.0">jdk</node>
+    <node x="0.0" y="90.0">Input</node>
+    <node x="0.0" y="265.0">groovyjarjarasm</node>
+    <node x="173.0" y="340.0">java</node>
+    <node x="671.0" y="265.0">groovy</node>
+    <node x="1049.0" y="265.0">javax</node>
+    <node x="517.0" y="165.0">groovyjarjarpicocli</node>
+    <node x="200.0" y="165.0">groovyjarjarcommonscli</node>
+    <node x="0.0" y="165.0">DemoMain</node>
+    <node x="860.0" y="265.0">javafx</node>
+    <node x="696.0" y="90.0">event</node>
+    <node x="156.0" y="90.0">userinterface</node>
+    <node x="810.0" y="165.0">groovyjarjarantlr</node>
+    <node x="524.0" y="90.0">account</node>
+    <node x="852.0" y="90.0">authentication</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="event" target="conferencemain">
+      <point x="0.0" y="-15.0" />
+      <point x="764.0" y="70.0" />
+      <point x="629.7142857142857" y="70.0" />
+      <point x="29.714285714285666" y="15.0" />
+    </edge>
+    <edge source="room" target="conferencemain">
+      <point x="0.0" y="-15.0" />
+      <point x="440.0" y="70.0" />
+      <point x="570.2857142857142" y="70.0" />
+      <point x="-29.71428571428578" y="15.0" />
+    </edge>
+    <edge source="userinterface" target="conferencemain">
+      <point x="0.0" y="-15.0" />
+      <point x="256.0" y="60.0" />
+      <point x="540.5714285714286" y="60.0" />
+      <point x="-59.428571428571445" y="15.0" />
+    </edge>
+    <edge source="account" target="conferencemain">
+      <point x="0.0" y="-15.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+    <edge source="message" target="conferencemain">
+      <point x="0.0" y="-15.0" />
+      <point x="1156.0" y="50.0" />
+      <point x="689.1428571428571" y="50.0" />
+      <point x="89.14285714285711" y="15.0" />
+    </edge>
+    <edge source="authentication" target="conferencemain">
+      <point x="0.0" y="-15.0" />
+      <point x="956.0" y="60.0" />
+      <point x="659.4285714285714" y="60.0" />
+      <point x="59.428571428571445" y="15.0" />
+    </edge>
+    <edge source="Input" target="conferencemain">
+      <point x="0.0" y="-15.0" />
+      <point x="68.0" y="50.0" />
+      <point x="510.8571428571429" y="50.0" />
+      <point x="-89.14285714285711" y="15.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="0.6315693430656935" x="991.7653857266686" y="681.4273331407107" />
+  <SelectedNodes>
+    <node>com</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Constructors</Category>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+    <Category>Inner Classes</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
